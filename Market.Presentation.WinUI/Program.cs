@@ -1,3 +1,5 @@
+using Market.Presentation.WinUI.Forms.InfoForms;
+
 namespace Market.Presentation.WinUI
 {
   internal static class Program

@@ -4,8 +4,6 @@ using Market.Entity.Classes.ResponseClasses;
 using Market.Entity.Enums;
 using Market.Presentation.WinUI.Classes.HelperClasses;
 using Market.Presentation.WinUI.Classes.ProgramClasses;
-using System;
-using System.Collections.Generic;
 using System.Reflection;
 
 namespace Market.Presentation.WinUI.Forms.ProductForms

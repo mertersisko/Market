@@ -29,6 +29,9 @@
     <Compile Update="Forms\MarketUserForms\MarketUserImage.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\ProductForms\BrandModelList.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\ProductForms\CategoriesList.cs">
       <SubType>Form</SubType>
     </Compile>

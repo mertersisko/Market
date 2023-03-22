@@ -22,8 +22,8 @@ namespace Market.Presentation.WinUI.Forms.MainForms
     {
       StartSettings();
 
-      Form form =  new ProductForms.CategoriesList() { Text = "Kategori Listesi" };
-      FormAc(form);
+      //Form form =  new ProductForms.CategoriesList() { Text = "Kategori Listesi" };
+      //FormAc(form);
     }
     void StartSettings()
     {
@@ -70,8 +70,14 @@ namespace Market.Presentation.WinUI.Forms.MainForms
           form = new MarketUserForms.MarketUserList() { Text = "Sistem Kullanıcı Listesi" };
           //FormAc(marketUserList);
           break;
-        case "MarketUserCrud":
-          form = new MarketUserForms.MarketUserCrud() { Text = "Sistem Kullanıcı İşlemleri" };
+        case "CategoriesList":
+          form = new ProductForms.CategoriesList() { Text = "Ürün Kategori İşlemleri" };
+          break;
+        case "BrandModelList":
+          form = new ProductForms.BrandModelList { Text = "Marka - Model İşlemleri" };
+          break;
+        case "WeatherInfo":
+          form = new InfoForms.WeatherInfo() { Text = "Hava Durumu - Döviz Kurları" };
           break;
         default:
           break;
