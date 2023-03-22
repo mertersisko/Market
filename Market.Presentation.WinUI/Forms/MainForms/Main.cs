@@ -22,8 +22,8 @@ namespace Market.Presentation.WinUI.Forms.MainForms
     {
       StartSettings();
 
-      Form form =  new ProductForms.CategoriesList() { Text = "Kategori Listesi" };
-      FormAc(form);
+      //Form form =  new ProductForms.CategoriesList() { Text = "Kategori Listesi" };
+      //FormAc(form);
     }
     void StartSettings()
     {
