@@ -18,10 +18,10 @@ namespace Market.DataAccess.Contexts
     private static string SystemDb_Context()
     {
       // Yazılım içine gömülü veritabanı bağlantı cümlesi
-      string server = "INPUTFF\\SQLEXPRESS";
+      string server = "ABC\\SQLEXPRESS";
       string database = "MarketDB";
-      string user = "ProgramUser";
-      string password = "852369741";
+      string user = "www";
+      string password = "123";
       return $"Data Source=\"{server}\";Initial Catalog=\"{database}\";Persist Security Info=True;User ID=\"{user}\";Password=\"{password}\"";
     }
 
