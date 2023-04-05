@@ -107,6 +107,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "Examples\De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp2", "Examples\Denemeler\WinFormsApp2\WinFormsApp2.csproj", "{A582A1CA-9501-40A7-963C-E7A4B281FF6D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSinifOrnekleri", "Examples\Console\ConsoleSinifOrnekleri\ConsoleSinifOrnekleri.csproj", "{0D0225F2-84A2-4C83-BDA3-B0BFCC189789}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{A582A1CA-9501-40A7-963C-E7A4B281FF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A582A1CA-9501-40A7-963C-E7A4B281FF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A582A1CA-9501-40A7-963C-E7A4B281FF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0225F2-84A2-4C83-BDA3-B0BFCC189789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0225F2-84A2-4C83-BDA3-B0BFCC189789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0225F2-84A2-4C83-BDA3-B0BFCC189789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0225F2-84A2-4C83-BDA3-B0BFCC189789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,6 +324,7 @@ Global
 		{2B6DA06A-A942-44E2-8AA5-E54571BF8EB6} = {9CDE5494-FC28-4E0C-B44A-607E9D671AEF}
 		{FD9E2551-5E82-4188-8B10-E98F352E12CD} = {9CDE5494-FC28-4E0C-B44A-607E9D671AEF}
 		{A582A1CA-9501-40A7-963C-E7A4B281FF6D} = {9CDE5494-FC28-4E0C-B44A-607E9D671AEF}
+		{0D0225F2-84A2-4C83-BDA3-B0BFCC189789} = {2F5D949E-8A2D-49AD-BD9F-97739CBFACBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {021765B0-C879-4A67-9558-B310892E6A32}
