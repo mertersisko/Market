@@ -40,6 +40,8 @@
       this.statusStrip1 = new System.Windows.Forms.StatusStrip();
       this.lblStripClientName = new System.Windows.Forms.ToolStripStatusLabel();
       this.lblStripClientIP = new System.Windows.Forms.ToolStripStatusLabel();
+      this.müşteriİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+      this.müşteriListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.menuStripMain.SuspendLayout();
       this.statusStrip1.SuspendLayout();
       this.SuspendLayout();
@@ -61,7 +63,8 @@
       this.wwwToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.testToolStripMenuItem,
             this.ürünİşlemleriToolStripMenuItem,
-            this.bilgiEkranlarıToolStripMenuItem});
+            this.bilgiEkranlarıToolStripMenuItem,
+            this.müşteriİşlemleriToolStripMenuItem});
       this.wwwToolStripMenuItem.Name = "wwwToolStripMenuItem";
       this.wwwToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
       this.wwwToolStripMenuItem.Text = "Ayarlar";
@@ -149,6 +152,22 @@
       this.lblStripClientIP.Size = new System.Drawing.Size(66, 20);
       this.lblStripClientIP.Text = "IP:IP:IP:IP";
       // 
+      // müşteriİşlemleriToolStripMenuItem
+      // 
+      this.müşteriİşlemleriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.müşteriListesiToolStripMenuItem});
+      this.müşteriİşlemleriToolStripMenuItem.Name = "müşteriİşlemleriToolStripMenuItem";
+      this.müşteriİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+      this.müşteriİşlemleriToolStripMenuItem.Text = "Müşteri İşlemleri";
+      // 
+      // müşteriListesiToolStripMenuItem
+      // 
+      this.müşteriListesiToolStripMenuItem.Name = "müşteriListesiToolStripMenuItem";
+      this.müşteriListesiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+      this.müşteriListesiToolStripMenuItem.Tag = "MusteriListesi";
+      this.müşteriListesiToolStripMenuItem.Text = "Müşteri Listesi";
+      this.müşteriListesiToolStripMenuItem.Click += new System.EventHandler(this.ToolStripMenuItem_Click);
+      // 
       // Main
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -186,5 +205,7 @@
     private ToolStripMenuItem bilgiEkranlarıToolStripMenuItem;
     private ToolStripMenuItem havaDurumuDövizKurlarıToolStripMenuItem;
     private ToolStripMenuItem markaModelİşlemleriToolStripMenuItem;
+    private ToolStripMenuItem müşteriİşlemleriToolStripMenuItem;
+    private ToolStripMenuItem müşteriListesiToolStripMenuItem;
   }
 }

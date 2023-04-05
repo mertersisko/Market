@@ -10,6 +10,9 @@ using System.Text;
 
 namespace Market.DataAccess.Contexts
 {
+
+  // https://learn.microsoft.com/tr-tr/visualstudio/data-tools/accessing-data-in-visual-studio?view=vs-2022
+
   public class MarketDbContext
   {
     // Database connection

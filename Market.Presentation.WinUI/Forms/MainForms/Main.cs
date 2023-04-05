@@ -79,6 +79,9 @@ namespace Market.Presentation.WinUI.Forms.MainForms
         case "WeatherInfo":
           form = new InfoForms.WeatherInfo() { Text = "Hava Durumu - Döviz Kurları" };
           break;
+        case "MusteriListesi":
+          form = new Forms.MusteriFormlari.MusteriListesi() { Text = "Müşteri Listesi" };
+          break;
         default:
           break;
       }
