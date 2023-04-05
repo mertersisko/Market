@@ -362,3 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Market.DataAccess/Contexts/MarketDbContext.cs
+/Market.WorkerService
+/SetupSqlite
+/Market.Test.Sqlite
